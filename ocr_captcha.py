@@ -108,7 +108,7 @@ def segment_characters(binary: np.ndarray, debug: bool = False, debug_dir: str =
     )
 
     h_img, w_img = binary.shape
-    min_char_area = (h_img * w_img) * 0.003
+    min_char_area = (h_img * w_img) * 0.002
     max_char_area = (h_img * w_img) * 0.5
 
     char_boxes = []
