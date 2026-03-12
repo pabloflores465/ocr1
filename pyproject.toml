@@ -1,0 +1,11 @@
+[project]
+name = "ocr1"
+version = "0.1.0"
+description = "OCR for noisy captcha-like images"
+requires-python = ">=3.11"
+dependencies = [
+    "opencv-python-headless",
+    "easyocr",
+    "numpy",
+    "pillow",
+]
